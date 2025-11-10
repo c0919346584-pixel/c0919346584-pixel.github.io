@@ -1,0 +1,14 @@
+/* 讓圖片不超出容器大小 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* 如果想置中 */
+}
+
+/* RWD：手機時圖片占滿螢幕 */
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
